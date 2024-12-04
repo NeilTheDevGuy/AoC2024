@@ -7,7 +7,7 @@ public static class Day2
         var input = await InputGetter.GetFromLinesAsString(2);
         var timedExecutor = new TimedExecutor();
         await timedExecutor.ExecuteTimed(() => PartOne(input)); //463
-        await timedExecutor.ExecuteTimed(() => PartTwo(input)); //
+        await timedExecutor.ExecuteTimed(() => PartTwo(input)); //514
     }
 
     private static async Task PartOne(string[] input)
